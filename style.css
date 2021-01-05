@@ -1,0 +1,46 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+.topbar{
+    height: 60px;
+}
+
+.header_sx img{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header_sx span{
+    font-size: 22px;
+}
+
+.header_dx i{
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar{
+    border-bottom: 1px solid grey;
+    padding-top: 0;
+    justify-content: left;
+}
+
+.navbar ul{
+    margin: 0;
+}
+.navbar ul li{
+    font-size: .9rem;
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+.navbar li:last-of-type{
+    color: #668de0;
+}
+
+
