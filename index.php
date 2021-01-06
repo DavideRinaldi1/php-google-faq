@@ -15,9 +15,7 @@
      <p>Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel Centro Google per la sicurezza online.
      Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>
      <p>Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel Centro Google per la sicurezza online.</p>
-     <p>Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>
-
-"
+     <p>Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>"
    ],
    [
      'question' => 'Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?',
@@ -71,7 +69,7 @@
         <?php
         foreach($data as $post => $k){
           echo('<h4 style="
-    margin-top: 100px; color: black;>' . $k['question'] . '</h4>' . $k['answer'] );
+    margin-top: 100px; color: black;">' . $k['question'] . '</h4>' . $k['answer'] );
         }
         ?>
       </div>
