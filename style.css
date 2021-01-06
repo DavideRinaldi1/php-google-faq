@@ -18,14 +18,22 @@
     font-size: 22px;
 }
 
-.header_dx i{
-    margin: 20px;
+.header_dx i, .header_dx img{
+    margin: 10px;
     font-size: 20px;
     cursor: pointer;
 }
 
-.navbar{
+header{
     border-bottom: 1px solid grey;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+}
+
+.navbar{
     padding-top: 0;
     justify-content: left;
 }
@@ -33,15 +41,28 @@
 .navbar ul{
     margin: 0;
 }
+
 .navbar ul li{
     font-size: .9rem;
     margin: 0 20px;
     font-weight: 500;
-    cursor: pointer;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar li:last-of-type{
     color: #668de0;
+    position: relative;
 }
 
+ul li div{
+    height: 3px;
+    width: 100%;
+    background-color: #668de0;
+    position: absolute;
+    top: 29px;
+}
 
